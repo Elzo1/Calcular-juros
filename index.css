@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: mintcream;
+
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+}
+
+form{
+    background: rgb(203, 207, 184);
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: -2px 5px 15px;
+    display: flex; /* para que fique flexivél*/
+    flex-direction: column;  /* para definir a direção flexivél como uma coluna*/
+    align-items: center;
+}
+
+label{
+    font-size: 1.5rem ;
+    font-weight: bolder;
+}
+
+input{
+    width: 70%;
+    font-size: 2rem;
+    border: none;
+    border-bottom: solid 2px rgb(32, 26, 26);
+    background: rgb(203, 207, 184);
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+
+button{
+   font-size: 1.3rem; 
+   color: rgb(8, 8, 8);
+   background: aqua;
+   border: none;
+   padding: 5px;
+   width: 50%;
+   border-radius: 15px 0px 15px;
+   transition: 0.5s
+}
+
+button:hover{
+    background: hsl(180, 67%, 54%);
+   border-radius: 0px 15px 0px;
+   transition: 0.8s;
+   width: 70%;
+  cursor: pointer;
+
+}
+
+#quantia-total{
+    font-weight: bold;
+    font-size: 1.rem;
+    color: rgba(8, 236, 8, 0.788);
+
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Calcular-juros-Composto</title>
+</head>
+
+<body>
+
+    <h1>Cálculo de juros compostos</h1>
+
+    <form action="">
+        <label for="principal">Quantia principal</label>
+        <input id="principal" type="text">
+
+        <label for="juros">Taxa de juro</label>
+        <input id="juros" type="text">
+
+        <label for="anos">Anos</label>
+        <input id="anos" type="text">
+
+        <button type="button" onclick="calcular()">Calcular</button>
+
+        <p id="total">
+           Total: <span id="quantia-total">R$0.00 </span>
+        </p>
+
+        <script src="index.js"></script>
+    </form>
+</body>
+
+</html>
